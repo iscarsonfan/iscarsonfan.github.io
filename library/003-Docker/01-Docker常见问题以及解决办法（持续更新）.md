@@ -9,6 +9,6 @@ Error：Failed to get D-Bus connection: Operation not permitted
 **例：**
 
 ```
-docker run  --privileged -ti -d  -p 82:80 -v /Users/fanchuncheng/Documents/szy-server:/data/web ztjy:v2  /usr/sbin/init
+docker run  --privileged -ti -d  -p 82:80 -v /server:/data/web qwe:v2  /usr/sbin/init
 ```
 
